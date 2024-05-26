@@ -6,11 +6,16 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BREX</title>
-<!--    <link rel="icon" href="Images/Frame.svg">-->
+    <link rel="icon" href="Images/Frame.svg">
+    <link rel="stylesheet" href="CSS/owl.carousel.css">
+    <link rel="stylesheet" href="CSS/owl.theme.default.css">
+
+    <!--    <link rel="icon" href="Images/Frame.svg">-->
     <link rel="stylesheet" href="CSS/style.css">
 
-    <link rel="stylesheet" href="CSS/test.scss">
-
+    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="CSS/mob_menu.css">
+    <link rel="stylesheet" href="CSS/preproc.css">
 
 
 </head>
@@ -21,6 +26,51 @@
     <nav class="header_nav">
     <a class="header-logo-link" href="#">
         <img src="Images/Frame.svg" alt="logo"></a>
+
+<!--        mobal_menu-->
+
+        <nav role="navigation">
+            <div id="menuToggle">
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <input type="checkbox" />
+
+                <!--
+                Some spans to act as a hamburger.
+
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+                <ul id="menu">
+                    <a href="#"><li>Solutions  <svg class="header-nav-icon" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 8L6.5 1L1 8" fill="black"/>
+                        <path d="M12 8L6.5 1L1 8" stroke="black" stroke-width="1.92381" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></li></a>
+                    <a href="#"><li>Products <svg class="header-nav-icon" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 8L6.5 1L1 8" fill="black"/>
+                        <path d="M12 8L6.5 1L1 8" stroke="black" stroke-width="1.92381" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></li></a>
+                    <a href="#"><li>Why Brex?</li></a>
+                    <a href="#"><li>Empower</li></a>
+                    <a href="#"><li>Resources <svg class="header-nav-icon" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 8L6.5 1L1 8" fill="black"/>
+                        <path d="M12 8L6.5 1L1 8" stroke="black" stroke-width="1.92381" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></li></a>
+                    <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+                </ul>
+            </div>
+        </nav>
+<!--        меню навигации-->
         <ul class="header_nav_list">
             <li class="header-nav-item">
                 <a href="#">Solutions</a>
@@ -101,7 +151,7 @@
 
 
             </article>
-            <article class="">
+            <article class="banner_wrapper">
                 <img src="Images/IMAGE.svg" width="600px"
                      height="740px" alt="card">
             </article>
@@ -218,9 +268,13 @@
             <h2>How our customers use Brex to power their companies.
             </h2>
 
-        <div class="customers-list">
+        <div class="customers-list owl-carousel">
+
             <article>
-                <img src="Images/Empire.svg" alt="empire">
+                <a href="#">
+                    <img src="Images/Empire.svg" width="400px" height="226px" alt="empire">
+                </a>
+
                 <p>Empire enables spend and drives accountability in Orangetheory studios with Brex Empower.</p>
                 <a href="#">Read case study
                     <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -228,7 +282,10 @@
                 </svg></a>
             </article>
             <article>
-                <img src="Images/Scale.svg" alt="scale">
+                <a href="#">
+                    <img src="Images/Scale.svg" alt="scale">
+                </a>
+
                 <p>Scale AI unblocks employee spend to ensure speed while boosting control and accountability.</p>
                 <a href="#">Read case study
                     <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -236,12 +293,48 @@
                 </svg></a>
             </article>
             <article>
-                <img src="Images/Avenue.svg" alt="avenue">
+                <a href="#">
+                    <img src="Images/Avenue.svg" alt="avenue">
+                </a>
+
                 <p>Avenue One drives automation and accuracy, saving 15 hours a month with Brex Empower and NetSuite.</p>
                 <a href="#">Read case study
                     <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4.10938 3.57031V4.75781H0.296875V3.57031H4.10938ZM11.0312 4.0625L5.47656 1.89844V0.40625L12.1484 3.35938V4.27344L11.0312 4.0625ZM5.47656 5.96875L11.0469 3.75781L12.1484 3.59375V4.5L5.47656 7.46094V5.96875Z" fill="#F46A35"/>
                 </svg></a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="Images/Empire.svg" alt="empire">
+                </a>
+
+                <p>Empire enables spend and drives accountability in Orangetheory studios with Brex Empower.</p>
+                <a href="#">Read case study
+                    <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.10938 3.57031V4.75781H0.296875V3.57031H4.10938ZM11.0312 4.0625L5.47656 1.89844V0.40625L12.1484 3.35938V4.27344L11.0312 4.0625ZM5.47656 5.96875L11.0469 3.75781L12.1484 3.59375V4.5L5.47656 7.46094V5.96875Z" fill="#F46A35"/>
+                    </svg></a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="Images/Scale.svg" alt="scale">
+                </a>
+
+                <p>Scale AI unblocks employee spend to ensure speed while boosting control and accountability.</p>
+                <a href="#">Read case study
+                    <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.10938 3.57031V4.75781H0.296875V3.57031H4.10938ZM11.0312 4.0625L5.47656 1.89844V0.40625L12.1484 3.35938V4.27344L11.0312 4.0625ZM5.47656 5.96875L11.0469 3.75781L12.1484 3.59375V4.5L5.47656 7.46094V5.96875Z" fill="#F46A35"/>
+                    </svg></a>
+            </article>
+            <article>
+                <a href="#">
+                    <img src="Images/Avenue.svg" alt="avenue">
+                </a>
+
+                <p>Avenue One drives automation and accuracy, saving 15 hours a month with Brex Empower and NetSuite.</p>
+                <a href="#">Read case study
+                    <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.10938 3.57031V4.75781H0.296875V3.57031H4.10938ZM11.0312 4.0625L5.47656 1.89844V0.40625L12.1484 3.35938V4.27344L11.0312 4.0625ZM5.47656 5.96875L11.0469 3.75781L12.1484 3.59375V4.5L5.47656 7.46094V5.96875Z" fill="#F46A35"/>
+                    </svg></a>
             </article>
         </div>
 
@@ -324,8 +417,8 @@
             <div class="footer_logo">
                 <a href="#">
                     <svg width="78" height="20" viewBox="0 0 78 20" fill="white" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M52.3125 4.13312C50.9638 4.13312 49.9237 4.61375 48.9587 5.61688V4.36688H46.31V16.6669H49.16V9.53312C49.16 7.9 50.1325 6.86688 51.6081 6.86688C51.8762 6.86688 52.1113 6.9 52.2788 6.93313L54.2569 4.33313C53.4856 4.2 52.8156 4.13312 52.3125 4.13312ZM76.8906 4.36688H73.6044L70.57 8.37875L67.5356 4.36625H64.2494L68.8856 10.5644L64.2494 16.6669H67.6025L70.5531 12.7756L73.5038 16.6669H76.8906L72.2231 10.5744L76.8906 4.36688ZM17.0375 1.6C16.065 2.9 15.83 3.33313 14.8913 3.33313H0.875V20H6.37437C7.615 20 8.82188 19.4 9.59313 18.4C10.5994 17.0669 10.7331 16.6669 11.7056 16.6669H25.7556V0H20.2225C18.9819 0 17.775 0.6 17.0369 1.6H17.0375ZM21.3962 12.3669H15.5281C14.2537 12.3669 13.0806 12.9 12.3094 13.9331C11.3031 15.2669 11.1019 15.6669 10.1631 15.6669H5.20062V7.66687H11.0687C12.3425 7.66687 13.5162 7.06687 14.2875 6.06687C15.2937 4.76687 15.5619 4.36688 16.4669 4.36688H21.3962V12.3669ZM42.4538 8.26688C43.695 7.56687 44.5662 6.33313 44.5662 4.7C44.5662 2.3 42.7225 0 40.04 0H31.9925V16.6669H40.04C42.9569 16.6669 44.9688 14.6 44.9688 12C44.9688 10.4669 44.265 9.13313 42.4538 8.26688ZM34.8425 2.6H39.805C41.0456 2.6 41.7831 3.76687 41.7831 4.8C41.7831 6.06687 40.6769 6.93313 39.6375 6.93313H34.8425V2.6ZM39.6375 14.0669H34.8425V9.53312H39.805C41.0794 9.53312 42.1187 10.6331 42.1187 11.7669C42.1187 13.0331 40.8112 14.0669 39.6375 14.0669Z" fill="black"/>
-                        <path d="M61.3994 13.1331C60.93 13.8669 60.0244 14.3 59.0181 14.3C57.4431 14.3 56.135 13.2331 56.135 11.6H64.6519C64.7862 11.1 64.8194 10.8669 64.8194 10.4331C64.8194 6.7 62.5056 4.13313 59.0187 4.13313C55.5981 4.13313 53.1844 6.56688 53.1844 10.5331C53.1844 14.4 55.4975 16.9 59.0856 16.9C61.6006 16.9 63.8137 15.6669 64.4506 13.1331H61.3994ZM59.0181 6.73313C60.5944 6.73313 61.8019 7.73313 61.7681 9.23313H56.1681C56.1681 7.76688 57.4431 6.73313 59.0181 6.73313Z" fill="black"/>
+                        <path d="M52.3125 4.13312C50.9638 4.13312 49.9237 4.61375 48.9587 5.61688V4.36688H46.31V16.6669H49.16V9.53312C49.16 7.9 50.1325 6.86688 51.6081 6.86688C51.8762 6.86688 52.1113 6.9 52.2788 6.93313L54.2569 4.33313C53.4856 4.2 52.8156 4.13312 52.3125 4.13312ZM76.8906 4.36688H73.6044L70.57 8.37875L67.5356 4.36625H64.2494L68.8856 10.5644L64.2494 16.6669H67.6025L70.5531 12.7756L73.5038 16.6669H76.8906L72.2231 10.5744L76.8906 4.36688ZM17.0375 1.6C16.065 2.9 15.83 3.33313 14.8913 3.33313H0.875V20H6.37437C7.615 20 8.82188 19.4 9.59313 18.4C10.5994 17.0669 10.7331 16.6669 11.7056 16.6669H25.7556V0H20.2225C18.9819 0 17.775 0.6 17.0369 1.6H17.0375ZM21.3962 12.3669H15.5281C14.2537 12.3669 13.0806 12.9 12.3094 13.9331C11.3031 15.2669 11.1019 15.6669 10.1631 15.6669H5.20062V7.66687H11.0687C12.3425 7.66687 13.5162 7.06687 14.2875 6.06687C15.2937 4.76687 15.5619 4.36688 16.4669 4.36688H21.3962V12.3669ZM42.4538 8.26688C43.695 7.56687 44.5662 6.33313 44.5662 4.7C44.5662 2.3 42.7225 0 40.04 0H31.9925V16.6669H40.04C42.9569 16.6669 44.9688 14.6 44.9688 12C44.9688 10.4669 44.265 9.13313 42.4538 8.26688ZM34.8425 2.6H39.805C41.0456 2.6 41.7831 3.76687 41.7831 4.8C41.7831 6.06687 40.6769 6.93313 39.6375 6.93313H34.8425V2.6ZM39.6375 14.0669H34.8425V9.53312H39.805C41.0794 9.53312 42.1187 10.6331 42.1187 11.7669C42.1187 13.0331 40.8112 14.0669 39.6375 14.0669Z" fill="#edefee"/>
+                        <path d="M61.3994 13.1331C60.93 13.8669 60.0244 14.3 59.0181 14.3C57.4431 14.3 56.135 13.2331 56.135 11.6H64.6519C64.7862 11.1 64.8194 10.8669 64.8194 10.4331C64.8194 6.7 62.5056 4.13313 59.0187 4.13313C55.5981 4.13313 53.1844 6.56688 53.1844 10.5331C53.1844 14.4 55.4975 16.9 59.0856 16.9C61.6006 16.9 63.8137 15.6669 64.4506 13.1331H61.3994ZM59.0181 6.73313C60.5944 6.73313 61.8019 7.73313 61.7681 9.23313H56.1681C56.1681 7.76688 57.4431 6.73313 59.0181 6.73313Z" fill="#edefee"/>
                     </svg>
                 </a>
             </div>
@@ -558,5 +651,10 @@
 </div>
 </div>
 </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="JS/owl.carousel.js"></script>
+<script src="JS/scripts.js"></script>
 </body>
 </html>

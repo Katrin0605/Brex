@@ -1,0 +1,351 @@
+@media only screen and (max-width: 1200px) {
+    #menuToggle{
+        display: none;
+    }
+    nav .navigation{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1100px) {
+    /*.container {*/
+    /*    padding-left: 15px;*/
+    /*    padding-right: 15px;*/
+    /*}*/
+    .container{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .header_nav_list{
+        gap: 15px;
+    }
+    .header_list{
+        gap: 23px;
+        margin-left: 54px;
+    }
+    .btn{
+        min-width: 100px;
+    }
+    .header_list{
+        margin-right: 14px;
+        display: flex;
+        gap: 17px;
+        margin-left: 50px;
+    }
+    #menuToggle{
+        display: none;
+    }
+    nav .navigation{
+        display: none;
+    }
+    /*banner*/
+    .container_brands{
+        gap:2px
+    }
+    .cards{
+        gap:0;
+    }
+    .customers-list{
+        margin-left: 31px;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        right: 4px;
+    }
+    .footer_list{
+        gap: 160px;
+    }
+}
+@media only screen and (max-width: 940px) {
+    .banner_container{
+        display: block;
+    }
+    .banner_wrapper{
+        padding: 0px;
+        margin-top: 40px;
+    }
+    .banner_wrapper h1{
+        font-size: 27px;
+        line-height: 119%;
+        letter-spacing: 0.04em;
+        color: #212121;
+        margin: 0;
+        /*margin-bottom: 23px;*/
+        /*margin: 4px 4px 40px 0px;*/
+    }
+    .container_brands{
+        display: block;
+    }
+    .container_brands a{
+        margin-right: 20px;
+    }
+    .cards{
+        display: block;
+    }
+    .cards .dark{
+        position: relative;
+        left: 71px;
+    }
+    .cards .wight{
+        position: relative;
+        left: 71px;
+    }
+    .wrapper .flexible img{
+        width: auto;
+        height: 380px;
+        position: relative;
+    }
+    .about-brands{
+        padding: 60px 0 70px;
+    }
+    .about-brands-info p{
+        font-size: 17px;
+        line-height: 100%;
+        left: 41px;
+        position: relative;
+    }
+    .see_can_do .container{
+        display: block;
+    }
+    .footer_list{
+        gap: 100px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .header_nav_list{
+        display: none;
+    }
+    #menuToggle
+    {
+        display: block;
+        position: relative;
+        top: 50px;
+        left: 36px;
+        z-index: 1;
+
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    .banner_container{
+        display: block;
+    }
+    .banner_wrapper{
+        padding: 0px;
+        margin-top: 40px;
+    }
+    .banner_wrapper h1{
+        font-size: 27px;
+        line-height: 119%;
+        letter-spacing: 0.04em;
+        color: #212121;
+         margin: 0;
+        /*margin-bottom: 23px;*/
+        /*margin: 4px 4px 40px 0px;*/
+    }
+    .banner_wrapper img{
+        width: auto;
+        height: 564px;
+    }
+    .container_brands{
+        display: block;
+    }
+    .container_brands a{
+        margin-right: 20px;
+    }
+    .cards{
+        display: block;
+    }
+    .cards .dark{
+        position: relative;
+        left: 71px;
+    }
+    .cards .wight{
+        position: relative;
+        left: 71px;
+    }
+    .wrapper .flexible img{
+        width: auto;
+        height: 300px;
+        position: relative;
+    }
+    .about-brands{
+        padding: 60px 0 70px;
+    }
+    .about-brands-info p{
+        font-size: 17px;
+        line-height: 100%;
+        left: 41px;
+        position: relative;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        display: none;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+    .customers-brands-list{
+        display: block;
+    }
+    .see_can_do .container{
+        display: block;
+    }
+    .footer_list{
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .header-logo-link{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #menuToggle{
+        left: 55px;
+    }
+
+    .banner_container{
+        display: block;
+    }
+    .banner_wrapper{
+        padding: 0px;
+        margin-top: 40px;
+    }
+    .banner .banner_wrapper img{
+        width: 100%;
+        height: 540px;
+    }
+    .cards{
+        display: block;
+    }
+    .cards .dark{
+        position: relative;
+        left: 0px;
+    }
+    .cards .wight{
+        position: relative;
+        left: 0px;
+    }
+    .cards .dark h2{
+        font-size: 23px;
+    }
+    .cards .dark p{
+        font-size: 16px;
+    }
+    .cards .wight h2{
+        font-size: 23px;
+    }
+    .cards .wight p{
+        font-size: 16px;
+    }
+
+
+    .wrapper .flexible img{
+        width: auto;
+        height: 224px;
+        position: relative;
+    }
+    .about-brands{
+        padding: 60px 0 70px;
+    }
+    .about-brands-info p{
+        font-size: 17px;
+        line-height: 100%;
+        left: 41px;
+        position: relative;
+    }
+    .customers-brands-list{
+        display: block;
+    }
+    .customers-list p{
+        font-size:13px;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        display: none;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+    /*.owl-carousel .owl-stage-outer{*/
+    /*    padding-left: 50px;*/
+    /*}*/
+    .see_can_do .container{
+        display: block;
+    }
+    .see_can_do .container h2{
+        font-size: 30px;
+        line-height: 124%;
+    }
+    .see_can_do .container img{
+        width: auto;
+        height: 350px;
+    }
+
+
+    .footer_list{
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper .flexible img{
+        width: auto;
+        height: 183px;
+        position: relative;
+        right: 4px;
+    }
+    .wrapper .flexible h3{
+        font-size: 30px;
+    }
+    .wrapper .flexible p{
+        font-size: 15px;
+    }
+    .about-brands{
+        padding: 60px 0 70px;
+    }
+    .about-brands-info p{
+        font-size: 17px;
+        line-height: 100%;
+        left: 41px;
+        position: relative;
+    }
+    .customers-brands-list{
+        display: block;
+    }
+    .cards .dark h2{
+        font-size: 23px;
+    }
+    .cards .dark p{
+        font-size: 16px;
+    }
+    .cards .wight h2{
+        font-size: 23px;
+    }
+    .cards .wight p{
+        font-size: 16px;
+    }
+    .see_can_do .container{
+        display: block;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        display: none;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        display: none;
+    }
+    .footer_list{
+       display: block;
+    }
+    footer .networks{
+        display: block;
+    }
+    footer .middle_part_socials{
+        display: block;
+        margin-bottom: 58px;
+    }
+    footer .footer_wrapper{
+        padding: 69px 43px 31px 48px;
+    }
+
+}
